@@ -1,0 +1,54 @@
+.routes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .route-card {
+    background-color: #e6f4f1;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .route-header {
+    grid-column: span 4;
+    background-color: #35b8b6;
+    color: #fff;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .route-details {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .route-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .route-icon {
+    font-size: 2rem;
+  }
+  
+  .route-item p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  

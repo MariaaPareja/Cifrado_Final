@@ -1,0 +1,15 @@
+.tourist-spots-container {
+    padding: 20px;
+  }
+  
+  .tourist-spots-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #fa744f;
+  }
+  
